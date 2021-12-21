@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        div.form.striped-rows .form-group:nth-child(even) {
+            background-color: #F5F7FA;
+        }
+
+        div.form.striped-rows .form-group {
+            margin: 0;
+        }
+
+        div.form.striped-rows .form-group .label-control {
+            padding-top: 1.5rem;
+        }
+
+        div.form.striped-rows .form-group>div {
+            padding: 1.2rem 0 1.2rem 1.2rem;
+            ;
+        }
+
+        div.form.form-bordered .form-group {
+            margin: 0;
+            border-bottom: 1px solid #EBEFF5;
+        }
+
+        div.form.form-bordered .form-group .label-control {
+            padding-top: 1.5rem;
+        }
+
+        div.form.form-bordered .form-group>div {
+            padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+            border-left: 1px solid #EBEFF5;
+        }
+
+        div.form.form-bordered .form-group.last {
+            border-bottom: 0;
+        }
+
+        @media (max-width: 767px) {
+            div.form.form-bordered .form-group>div {
+                padding: 10px 15px;
+                border-left: 0px solid #EBEFF5;
+            }
+
+            div.form.form-bordered .form-group .label-control {
+                padding: 0px 15px;
+                padding-top: 10px;
+                margin-bottom: 0;
+            }
+
+            div.form.form-horizontal .form-group .label-control {
+                text-align: unset !important;
+            }
+        }
+
+        @media (min-width: 576px) {
+            div.form.form-horizontal .form-group .label-control {
+                text-align: right;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid mt-4">
+        <div class=" content-body">
+            <!-- Striped row layout section start -->
+            <section id="">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-light">
+                                <h4 class="form-section"><i class="feather icon-user"></i>Personal Info</h4>
+                            </div>
+                            <div class="card-content collpase show">
+                                <div class="card-body">
+                                    <div class="form form-horizontal striped-rows form-bordered">
+                                        <div class="form-body">
+
+                                            <div class="form-group row">
+                                                <label class="col-md-3 label-control" for="projectinput1">First
+                                                    Name</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" id="projectinput1" class="form-control"
+                                                        placeholder="First Name" name="fname" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 label-control" for="projectinput2">Last
+                                                    Name</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" id="projectinput2" class="form-control"
+                                                        placeholder="Last Name" name="lname" />
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-md-3 label-control" for="projectinput3">E-mail</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" id="projectinput3" class="form-control"
+                                                        placeholder="E-mail" name="email" />
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row last">
+                                                <label class="col-md-3 label-control" for="projectinput4">
+                                                    Contact
+                                                    Number</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" id="projectinput4" class="form-control"
+                                                        placeholder="Phone" name="phone" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer form-inline d-flex justify-content-center bg-light">
+                                    <button type="button" class="btn btn-danger">Cancel</button> &nbsp;&nbsp;&nbsp;
+                                    <button type="button" class="btn btn-success">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // Striped row layout section end -->
+        </div>
+    </div>
+
+</body>
+
+</html>
